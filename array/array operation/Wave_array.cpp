@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-void WaveArray(int arr[],int size,int start)
+void WaveArray(int arr[],int size,int start)      //Unfinished
 {
     int Greatest=0;
     int Smallest=INT8_MAX;
