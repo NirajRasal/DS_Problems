@@ -7,9 +7,7 @@ int binearysearch(int arr[],int start,int end,int find)
     int mid;        
     while(start <= end)
     {
-        mid=(start+end)/2;
-        
-        
+        mid=(start+end)/2;          //calculate mid point
         if(arr[mid] < find)
         {
             start=mid+1;
@@ -45,7 +43,7 @@ int main()
     }
     cout<<"enter the no to find:";
     cin>>no;
-    int r = binearysearch(arr,start,end-1,no);
+    int r = binearysearch(arr,start,end-1,no);          //store return value
     if(r == -1)
     {
         cout<<"no. not found";
