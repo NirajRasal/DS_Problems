@@ -16,26 +16,23 @@ void arm(int n)
         n=n/10;
     }*/
 
-    /*                  using while loop
+                     // using while loop
     while(n>0)    
     {    
         r=n%10;    
         sum=sum+(r*r*r);    
         n=n/10;    
-    }*/   
+    }
     cout<<sum<<endl;        //for debugging purpose
        
     if(temp==sum)
     {
-        cout<<"no is pallindrome";
+        cout<<"no is Armstrong";
     }
     else
     {
-        
-            cout<<"no is not pallindrome";
+       cout<<"no is not Armstrong";
     }
-    
-    
 }
  
 int main() {

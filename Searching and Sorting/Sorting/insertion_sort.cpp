@@ -1,4 +1,7 @@
-//Working
+//https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm
+//Time Complixity: O(n²) in the average and worst case, and O(n) in the best case
+//Sorting In Place: Yes
+//Stable: Yes
 
 #include<iostream>
 #define max 20

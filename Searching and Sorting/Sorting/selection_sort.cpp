@@ -1,4 +1,8 @@
-//Working
+//https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm
+
+//Time Complexity : O(n^2)
+//Stable : NO
+//IN-PLACE : YES
 
 #include<iostream>
 #define max 20

@@ -6,8 +6,8 @@ using namespace std;
 void leftRotate(int arr[], int n, int k)
 {
     cout << "left rotation:";
-    // Print array after k rotations
-    for (int i = k; i < k + n; i++)
+    
+    for (int i = k; i < k + n; i++)     //left rotation
 
         cout << arr[i % n] << " ";
 }
@@ -18,7 +18,7 @@ void rightRotate(int a[], int n, int k)
 
     //Moving each element by k positions
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n; i++)         //right roation
     {
         b[(i + k) % n] = a[i];
     }

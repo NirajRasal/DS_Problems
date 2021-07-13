@@ -1,4 +1,8 @@
-/*Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
+/*
+https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm
+https://www.geeksforgeeks.org/in-place-algorithm/
+
+Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
 
 Best Case Time Complexity: O(n). Best case occurs when array is already sorted.*/
 

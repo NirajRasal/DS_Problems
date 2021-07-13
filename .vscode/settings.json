@@ -1,3 +1,11 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "ADDNODE.C": "cpp",
+        "LINKLIST.C": "cpp",
+        "LINKLSTA.C": "cpp",
+        "LINKDS.C": "cpp",
+        "LINKCASE.C": "cpp",
+        "DOUBLY.C": "cpp"
+    }
 }
