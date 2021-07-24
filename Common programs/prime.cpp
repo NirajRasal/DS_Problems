@@ -10,6 +10,7 @@ int prime(int no)
         if(no % i == 0)
         {
             count++;
+            break;
         }
     }
     if(count == 0)
